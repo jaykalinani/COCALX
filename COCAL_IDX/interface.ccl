@@ -2,3 +2,4 @@
 implements: Cocal
 inherits: ADMBaseX CoordinatesX HydroBaseX AsterX
 
+USES INCLUDE HEADER: loop.hxx

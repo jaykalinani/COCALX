@@ -22,7 +22,7 @@ ActiveThorns = "
 
 CarpetX::verbose = no
 CarpetX::poison_undefined_values = yes
-#CarpetX::poison_undefined_arrays = no
+CarpetX::poison_undefined_arrays = no
 
 CarpetX::xmin = -17.053447918351154
 CarpetX::xmax =  17.053447918351154
@@ -87,3 +87,5 @@ CarpetX::out_norm_vars = "
 "
 CarpetX::out_norm_omit_unstable = yes
 CarpetX::out_norm_omit_sumloc_for_backward_compatibility = yes
+CarpetX::out_tsv_every = 1
+CarpetX::out_tsv_vars = "ADMBaseX::curv"
